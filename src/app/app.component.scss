@@ -1,0 +1,29 @@
+:host {
+  .header {
+    height: 64px;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    h1 {
+      color: #ffffff;
+    }
+  }
+  .nav {
+   height: calc(100vh - 64px);
+   width: 10%;
+   box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.1);
+   ul {
+     li {
+      padding: 16px;
+      &:hover {
+        background-color: #eeeeee;
+        cursor: pointer;
+      }
+     }
+   }
+  }
+  .content {
+
+  }
+}
